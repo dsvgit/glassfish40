@@ -1,0 +1,11 @@
+/* AUTOMATICALLY GENERATED ON Tue Dec 15 02:06:43 MSK 2015*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "HelloWorldService", "getHelloWrold,Local,";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "HelloWorldService", "**";
+};
+
